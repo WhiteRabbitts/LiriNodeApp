@@ -1,0 +1,28 @@
+{
+  "name": "lirinodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhiteRabbitts/LiriNodeApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhiteRabbitts/LiriNodeApp/issues"
+  },
+  "homepage": "https://github.com/WhiteRabbitts/LiriNodeApp#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "fs": "0.0.1-security",
+    "node-spotify-api": "^1.0.7",
+    "npm": "^5.8.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {}
+}
