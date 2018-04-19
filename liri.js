@@ -32,16 +32,9 @@ function getTweets() {
 
         errorFunction();
 
-
-
         for (i = 0; i < tweets.length; i++) {
             console.log(i + 1 + ". Tweet: ", tweets[i].text);
-
-       
-            
-        };
-
-
+         };
     });
 };
 
@@ -54,12 +47,7 @@ function searchSong(searchValue) {
 
     var spotify = new Spotify(keys.spotify);
 
-    
-
- 
-   
     spotify.search({ type: 'track', query: searchValue }, function(respError, response) {
-
 
         errorFunction();
 
@@ -71,8 +59,7 @@ function searchSong(searchValue) {
             console.log(("Album name: " + songResp[i].album.name));
 
         }
-
-    })
+     })
 };
 
 //OMDB//
